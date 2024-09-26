@@ -41,5 +41,5 @@ node app.js
 
 ### 4. Agora basta abrir o link abaixo e testar o app
 
-<a href="" target="_blank">Open the public project link</a>
+<a href="https://matheusmartinsviana.github.io/todolist-security/" target="_blank">Open the public project link</a>
 
