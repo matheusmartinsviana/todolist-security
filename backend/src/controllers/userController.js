@@ -38,8 +38,8 @@ exports.login = async (req, res) => {
       res.cookie("token", token, {
         httpOnly: true,
         maxAge: 3600000,
-        secure: process.env.NODE_ENV === "production",
-        sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax",
+        secure: true,
+        sameSite: "None",
       });
 
       res.status(200).send({ message: "Login efetuado com sucesso" });
