@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+
+      <!-- Login/Register Forms -->
+      <div id="auth-container">
+        <h1 id="form-title">Login</h1>
+
+        <!-- Formulário de Login -->
+        <form id="login-form">
+          <input
+            type="text"
+            id="login-username"
+            placeholder="Nome de usuário"
+            required
+          />
+          <input
+            type="password"
+            id="login-password"
+            placeholder="Senha"
+            required
+          />
+          <button id="login" type="submit">Login</button>
+        </form>
+
+        <!-- Formulário de Registro -->
+        <form id="register-form" style="display: none">
+          <input
+            type="text"
+            id="register-username"
+            placeholder="Nome de usuário"
+            required
+          />
+          <input
+            type="password"
+            id="register-password"
+            placeholder="Senha"
+            required
+          />
+          <button id="register" type="submit">Registrar</button>
+        </form>
+
+        <!-- Botões para alternar entre login e registro -->
+        <p id="toggle-message">
+          Não tem uma conta? <a href="#" id="toggle-form">Registrar-se</a>
+        </p>
+      </div>
+
+      <div id="todo-container" style="display: none">
+        <h1>Tarefas</h1>
+        <form id="new-todo-form">
+          <input
+            type="text"
+            id="new-todo-title"
+            placeholder="Nova tarefa"
+            required
+          />
+          <button id="add" type="submit">Adicionar</button>
+        </form>
+        <ul id="todo-list"></ul>
+        <button id="logout">Logout</button>
+      </div>
+
+      <!-- Todo List Section -->
+      <div id="todo-container" style="display: none">
+        <h2>Suas Tarefas</h2>
+        <ul id="todo-list"></ul>
+
+        <form id="new-todo-form">
+          <input
+            type="text"
+            id="new-todo-title"
+            placeholder="Nova tarefa"
+            required
+          />
+          <button id="add" type="submit">Adicionar Tarefa</button>
+        </form>
+
+        <button id="logout">Sair</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
