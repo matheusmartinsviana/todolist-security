@@ -1,6 +1,6 @@
 # Todo List Application
 
-Uma aplicação simples de gerenciamento de tarefas desenvolvida com **Node.js** no backend, utilizando **Express** e **MySQL**. Este projeto é uma ótima oportunidade para aprender sobre segurança em aplicações web, testando vulnerabilidades como **SQL Injection** e **ataques XSS**.
+Uma aplicação simples de gerenciamento de tarefas desenvolvida com **Node.js** no backend, utilizando **Express** e **MySQL**. Aplicando conhecimentos para segurança em aplicações web, testando vulnerabilidades como **SQL Injection** e **ataques XSS**.
 
 ## Tecnologias Usadas
 
